@@ -1,0 +1,204 @@
+/*________________________________________________________________________________________________________________
+NAVBAR*/
+
+.navbar.navbar-light.bg-light {
+    background-color: white !important;
+}
+a.navbar-brand {
+    color: #17A2B8 !important;
+}
+
+/*________________________________________________________________________________________________________________
+HEADER*/
+*{
+    margin: 0% !important;
+    margin-right: 0px !important;
+}
+
+header{
+    background: url(../img/imageHeader.png) no-repeat center center;
+    background-size: cover;
+    height:723px;
+}
+h1, #quatrieme-section h2, #cinquieme-section h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-size: 45px; 
+    font-style: normal; 
+    font-weight: lighter; 
+    color: white;
+}
+p.lead, #quatrieme-section p, #cinquieme-section p {
+    font-size: 14px; 
+    color: white;
+}
+
+/*________________________________________________________________________________________________________________
+GENERAL*/
+
+body {
+    font-family: 'Open Sans', sans-serif;
+}
+h2 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 35px; 
+    color: #222626;
+    padding-bottom: 20px;
+}
+h3 {
+    font-family: 'Open Sans', sans-serif;
+    font-weight: lighter;
+    font-size: 13px; 
+    color: #222626;
+}
+p  {
+    font-size: 14px; 
+    color: #959595;
+}
+a {
+    font-size: 12px; 
+    font-weight: bolder;
+    color: white;
+}
+
+/*________________________________________________________________________________________________________________
+SECTION 0, 1 et 2*/
+
+#zero-section {
+    height:700px;
+    padding: 100px;
+}
+#paragrapheHeader {
+    color: white;
+}
+#premiere-section {
+    height: auto;
+    padding: 100px;
+}
+#deuxiemeParagraphe {
+    padding-top: 200px;
+}
+#deuxieme-section p {
+    font-size: 13px; 
+    color: white;
+}
+#deuxieme-section h2 {
+    font-size: 30px; 
+    color: white;
+}
+div.col-md-3.col-12.rectangle, div.col-md-6.col-12.rectangle {
+    padding: 20px;
+    height: 270px;
+}
+.pink {
+    background-color: #f5989d;
+}
+.purple {
+    background-color: #615f7d;
+}
+#third-rectangle{
+    background: url(../img/imageSection2-1.png) no-repeat center center;
+    background-size: cover;
+}
+.purpleClear {
+    background-color: #bd8cbf;
+}
+#five-rectangle {
+    background: url(../img/imageSection2-2.png) no-repeat center center;
+    background-size: cover;
+}
+.green {
+    background-color: #82ca9c;
+}
+#seven-rectangle {
+    background: url(../img/imageSection2-3.png) no-repeat center center;
+    background-size: cover;
+}
+
+/*________________________________________________________________________________________________________________
+SECTION 3, 4 et 5*/
+
+#troisieme-section {
+    height: auto;
+    padding: 100px;
+    width: 100%;
+}
+#quatrieme-section {
+    background: url(../img/imageSection4.png) no-repeat center center;
+    background-size: cover;
+    height: 723px;
+    width: 100% !important;
+}
+#cinquieme-section h3 {
+    font-size: 13px;
+    color: white;
+    width: 100%;
+}
+
+/*________________________________________________________________________________________________________________
+SECTION 6*/
+
+.btn.btn-primary:hover {
+    background-color: white !important;
+    color: #82ca9c !important;
+}
+div.card.col-md-6.col-12 {
+    border-color: #f6f7fa !important;
+    height: 380px;
+    padding: 10px;
+}
+#sixieme-section {
+    background-color: #f6f7fa;
+    height: auto;
+    padding: 100px;
+    width: 100%;
+}
+#first-card {
+    background-color: #f6f7fa !important;
+}
+button#first-button.btn.btn-secondary.btn-sm {
+    color: white !important;
+    background-color: #e1e1e1 !important;
+    border-color: #e1e1e1 !important;
+}
+button#second-button.btn.btn-secondary.btn-sm {
+    color: white !important;
+    background-color: #bd8cbf !important;
+    border-color: #bd8cbf !important;
+}
+a.btn.btn-primary {
+    color: white !important;
+    background-color: #82ca9c !important;
+    border-color: #82ca9c !important;
+}
+
+/*________________________________________________________________________________________________________________
+FOOTER*/
+
+.grey {
+    background-color: #192431;
+}
+#footer h3, #footer p, #footer ul {
+    color: #f6f7fa;
+    font-size: 13px;
+}
+#footer h3 {
+    font-weight: bolder;
+}
+#footer li {
+    color: #f6f7fa;
+    font-size: 13px;
+    list-style: none;
+}
+
+@media (max-width: 700px) {
+    #deuxiemeParagraphe {
+        padding-top: 10px;
+    }
+    #zero-section {
+        padding: 10px !important;
+    }
+}
+.container, .container-lg, .container-md, .container-sm, .container-xl {
+    max-width: 100vw !important;
+}
